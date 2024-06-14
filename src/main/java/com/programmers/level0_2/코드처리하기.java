@@ -30,6 +30,7 @@ public class 코드처리하기 {
 //                }
 //            }
 //        }
+
         for(int i = 0; i < code.length(); i++) {
             char c = code.charAt(i);
             if(c == '1') {

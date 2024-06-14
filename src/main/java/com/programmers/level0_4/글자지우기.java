@@ -15,8 +15,8 @@ public class 글자지우기 {
 //        return sb.toString().replace(" ", "");
 
         String[] str = my_string.split("");
-        for(int i=0;i<indices.length;i++) {
-            str[indices[i]] = "";
+        for(int index : indices) {
+            str[index] = "";
         }
         return String.join("", str);
     }

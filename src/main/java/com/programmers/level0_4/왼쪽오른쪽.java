@@ -11,9 +11,9 @@ public class 왼쪽오른쪽 {
 
     public static String[] solution(String[] str_list) {
 //        for(int i = 0; i < str_list.length; i++) {
-//            if ("l".equals(str_list[i])) {
+//            if("l".equals(str_list[i])) {
 //                return Arrays.copyOfRange(str_list, 0, i);
-//            } else if ("r".equals(str_list[i])) {
+//            } else if("r".equals(str_list[i])) {
 //                return Arrays.copyOfRange(str_list, i + 1, str_list.length);
 //            }
 //        }
@@ -24,7 +24,7 @@ public class 왼쪽오른쪽 {
                         .filter(i -> str_list[i].equals("l") || str_list[i].equals("r"))
                         .findFirst()
                         .map(i -> {
-                            if (str_list[i].equals("l")) {
+                            if(str_list[i].equals("l")) {
                                 return Arrays.copyOfRange(str_list, 0, i);
                             }
                             return Arrays.copyOfRange(str_list, i + 1, str_list.length);

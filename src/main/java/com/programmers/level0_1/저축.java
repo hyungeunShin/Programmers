@@ -12,12 +12,12 @@ public class 저축 {
         int money = start;
         int month = 1;
 
-        while (money < 70) {
+        while(money < 70) {
             money += before;
             month++;
         }
 
-        while (money < 100) {
+        while(money < 100) {
             money += after;
             month++;
         }

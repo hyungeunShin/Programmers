@@ -10,9 +10,9 @@ public class 조건에맞게수열변환1 {
     public static int[] solution(int[] arr) {
         return Arrays.stream(arr)
                 .map(n -> {
-                    if (n >= 50 && n % 2 == 0) {
+                    if(n >= 50 && n % 2 == 0) {
                         return n / 2;
-                    } else if (n < 50 && n % 2 != 0) {
+                    } else if(n < 50 && n % 2 != 0) {
                         return n * 2;
                     } else {
                         return n;

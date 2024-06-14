@@ -6,7 +6,7 @@ public class 수조작하기1 {
     }
 
     public static int solution(int n, String control) {
-        for (char c : control.toCharArray()) {
+        for(char c : control.toCharArray()) {
             if(c == 'w') {
                 n += 1;
             } else if(c == 's') {

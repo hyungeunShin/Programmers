@@ -10,7 +10,7 @@ public class 원소들의곱과합 {
         int mul = 1;
         int sum = 0;
 
-        for (int i : num_list) {
+        for(int i : num_list) {
             mul *= i;
             sum += i;
         }

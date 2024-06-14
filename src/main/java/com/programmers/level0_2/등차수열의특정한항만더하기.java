@@ -18,6 +18,8 @@ public class 등차수열의특정한항만더하기 {
 //        }
 //
 //        return sum;
-        return IntStream.range(0, included.length).map(idx -> included[idx] ? a + (idx * d) : 0).sum();
+        return IntStream.range(0, included.length)
+                        .map(idx -> included[idx] ? a + (idx * d) : 0)
+                        .sum();
     }
 }

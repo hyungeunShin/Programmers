@@ -14,13 +14,13 @@ public class 가습기 {
     public static int func2(int humidity){
         if(humidity >= 50)
             return 0;
-        else if (humidity >= 40)
+        else if(humidity >= 40)
             return 1;
-        else if (humidity >= 30)
+        else if(humidity >= 30)
             return 2;
-        else if (humidity >= 20)
+        else if(humidity >= 20)
             return 3;
-        else if (humidity >= 10)
+        else if(humidity >= 10)
             return 4;
         else return 5;
     }

@@ -17,12 +17,13 @@ public class 수열과구간쿼리2 {
     public static int[] solution(int[] arr, int[][] queries) {
 //        int[] answer = new int[queries.length];
 //
-//        for (int i = 0; i < queries.length; i++) {
+//        for(int i = 0; i < queries.length; i++) {
 //            int[] q = queries[i];
 //            answer[i] = Arrays.stream(Arrays.copyOfRange(arr, q[0], q[1] + 1)).filter(n -> n > q[2]).min().orElse(-1);
 //        }
 //
 //        return answer;
+
         return Arrays.stream(queries)
                 .mapToInt(query -> IntStream.rangeClosed(query[0], query[1])
                                             .map(i -> arr[i])

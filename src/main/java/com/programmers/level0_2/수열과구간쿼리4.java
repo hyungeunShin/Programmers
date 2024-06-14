@@ -11,7 +11,7 @@ public class 수열과구간쿼리4 {
     }
 
     public static int[] solution(int[] arr, int[][] queries) {
-        for (int[] q : queries) {
+        for(int[] q : queries) {
             int s = q[0];
             int e = q[1];
             int k = q[2];

@@ -11,7 +11,7 @@ public class 글자이어붙여문자열만들기 {
 
     public static String solution(String my_string, int[] index_list) {
         return Arrays.stream(index_list)
-                .mapToObj(n -> String.valueOf(my_string.charAt(n)))
-                .collect(Collectors.joining());
+                     .mapToObj(n -> String.valueOf(my_string.charAt(n)))
+                     .collect(Collectors.joining());
     }
 }

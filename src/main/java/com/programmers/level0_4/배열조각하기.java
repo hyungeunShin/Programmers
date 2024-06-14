@@ -17,10 +17,11 @@ public class 배열조각하기 {
 //        }
 //
 //        return arr;
+
         int start = 0;
         int end = arr.length - 1;
         for(int i = 0; i < query.length; i++) {
-            if (i % 2 == 0) {
+            if(i % 2 == 0) {
                 end = start + query[i] - 1;
             } else {
                 start += query[i];

@@ -14,6 +14,7 @@ public class 가까운1찾기 {
 //                        .filter(i -> i >= idx && arr[i] == 1)
 //                        .findFirst()
 //                        .orElse(-1);
+
         return IntStream.range(idx, arr.length)
                         .filter(i -> arr[i] == 1)
                         .findFirst()

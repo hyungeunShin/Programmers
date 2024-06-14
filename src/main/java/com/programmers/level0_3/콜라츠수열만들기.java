@@ -22,6 +22,9 @@ public class 콜라츠수열만들기 {
 //            list.add(n);
 //        }
 //        return list.stream().mapToInt(x -> x).toArray();
-        return Stream.iterate(n, i -> i >= 1, i -> i == 1 ? 0 : (i % 2 == 0 ? i / 2 : 3 * i + 1)).mapToInt(Integer::intValue).toArray();
+
+        return Stream.iterate(n, i -> i >= 1, i -> i == 1 ? 0 : (i % 2 == 0 ? i / 2 : 3 * i + 1))
+                     .mapToInt(Integer::intValue)
+                     .toArray();
     }
 }

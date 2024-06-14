@@ -15,10 +15,10 @@ public class 배열만들기4 {
 //        List<Integer> list = new ArrayList<>();
 //
 //        while(i < arr.length) {
-//            if (list.isEmpty()) {
+//            if(list.isEmpty()) {
 //                list.add(arr[i]);
 //                i++;
-//            } else if (list.get(list.size() - 1) >= arr[i]) {
+//            } else if(list.get(list.size() - 1) >= arr[i]) {
 //                list.remove(list.size() - 1);
 //            } else {
 //                list.add(arr[i]);
@@ -27,6 +27,7 @@ public class 배열만들기4 {
 //        }
 //
 //        return list.stream().mapToInt(n -> n).toArray();
+
         Stack<Integer> stack = new Stack<>();
         int i = 0;
 

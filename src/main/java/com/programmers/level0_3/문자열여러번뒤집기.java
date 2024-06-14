@@ -8,7 +8,7 @@ public class 문자열여러번뒤집기 {
     public static String solution(String my_string, int[][] queries) {
         StringBuilder answer = new StringBuilder(my_string);
 
-        for (int[] i : queries) {
+        for(int[] i : queries) {
             int s = i[0];
             int e = i[1];
 

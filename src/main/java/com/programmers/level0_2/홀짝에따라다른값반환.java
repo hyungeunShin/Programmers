@@ -14,6 +14,7 @@ public class 홀짝에따라다른값반환 {
 //        } else {
 //            return IntStream.rangeClosed(0, n).filter(i -> i % 2 != 0).sum();
 //        }
+
         int answer = 0;
 
         for(int i = n; i >= 0; i -= 2) {
