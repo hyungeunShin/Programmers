@@ -13,7 +13,7 @@ public class 이상한문자만들기 {
         return Arrays.stream(s.split(" ", -1))
                 .map(ss -> IntStream.range(0, ss.length())
                                     .mapToObj(i -> {
-                                        if (i % 2 == 0) {
+                                        if(i % 2 == 0) {
                                             return String.valueOf(ss.charAt(i)).toUpperCase();
                                         } else {
                                             return String.valueOf(ss.charAt(i)).toLowerCase();

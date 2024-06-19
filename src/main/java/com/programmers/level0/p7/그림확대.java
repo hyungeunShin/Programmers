@@ -12,11 +12,11 @@ public class 그림확대 {
         List<String> list = new ArrayList<>();
         for(String s : picture) {
             String repeat = "";
-            for (char c : s.toCharArray()) {
+            for(char c : s.toCharArray()) {
                 repeat += String.valueOf(c).repeat(k);
             }
 
-            for (int j = 0; j < k; j++) {
+            for(int j = 0; j < k; j++) {
                 list.add(repeat);
             }
         }
