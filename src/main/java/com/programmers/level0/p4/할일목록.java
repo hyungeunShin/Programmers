@@ -17,7 +17,7 @@ public class 할일목록 {
 //                        .toArray(String[]::new);
 
         String str = "";
-        for(int i=0; i<finished.length; i++){
+        for(int i = 0; i < finished.length; i++) {
             str = !finished[i] ? str + todo_list[i] + "," : str;
         }
         return str.split(",");

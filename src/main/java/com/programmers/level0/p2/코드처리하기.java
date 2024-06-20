@@ -39,7 +39,7 @@ public class 코드처리하기 {
             }
 
             if(i % 2 == mode) {
-                answer += (c);
+                answer += c;
             }
         }
 

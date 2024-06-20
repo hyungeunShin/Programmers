@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class 조건에맞게수열변환3 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new int[]{1, 2, 3, 100, 99, 98}, 3)));
-        System.out.println(Arrays.toString(solution(new int[]{1, 2, 3, 100, 99, 98}, 2)));
+        System.out.println(Arrays.toString(solution(new int[] {1, 2, 3, 100, 99, 98}, 3)));
+        System.out.println(Arrays.toString(solution(new int[] {1, 2, 3, 100, 99, 98}, 2)));
     }
 
     public static int[] solution(int[] arr, int k) {

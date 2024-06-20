@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 
 public class 가장큰수찾기 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new int[]{1, 8, 3})));
-        System.out.println(Arrays.toString(solution(new int[]{9, 10, 11, 8})));
+        System.out.println(Arrays.toString(solution(new int[] {1, 8, 3})));
+        System.out.println(Arrays.toString(solution(new int[] {9, 10, 11, 8})));
     }
 
     public static int[] solution(int[] array) {

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class 배열조각하기 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new int[]{0, 1, 2, 3, 4, 5}, new int[]{4, 1, 2})));
+        System.out.println(Arrays.toString(solution(new int[] {0, 1, 2, 3, 4, 5}, new int[] {4, 1, 2})));
     }
 
     public static int[] solution(int[] arr, int[] query) {

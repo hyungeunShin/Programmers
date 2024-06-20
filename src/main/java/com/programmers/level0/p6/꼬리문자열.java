@@ -5,8 +5,8 @@ import java.util.stream.Collectors;
 
 public class 꼬리문자열 {
     public static void main(String[] args) {
-        System.out.println(solution(new String[]{"abc", "def", "ghi"}, "ef"));
-        System.out.println(solution(new String[]{"abc", "bbc", "cbc"}, "c"));
+        System.out.println(solution(new String[] {"abc", "def", "ghi"}, "ef"));
+        System.out.println(solution(new String[] {"abc", "bbc", "cbc"}, "c"));
     }
 
     public static String solution(String[] str_list, String ex) {

@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 
 public class five명씩 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new String[]{"nami", "ahri", "jayce", "garen", "ivern", "vex", "jinx"})));
+        System.out.println(Arrays.toString(solution(new String[] {"nami", "ahri", "jayce", "garen", "ivern", "vex", "jinx"})));
     }
 
     public static String[] solution(String[] names) {

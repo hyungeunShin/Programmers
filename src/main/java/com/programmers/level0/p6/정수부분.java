@@ -9,5 +9,4 @@ public class 정수부분 {
     public static int solution(double flo) {
         return (int) flo;
     }
-
 }

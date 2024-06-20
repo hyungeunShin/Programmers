@@ -7,15 +7,15 @@ import java.util.stream.IntStream;
 
 public class two의영역 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new int[]{1, 2, 1, 4, 5, 2, 9})));
-        System.out.println(Arrays.toString(solution(new int[]{1, 2, 1})));
-        System.out.println(Arrays.toString(solution(new int[]{1, 1, 1})));
-        System.out.println(Arrays.toString(solution(new int[]{1, 2, 1, 2, 1, 10, 2, 1})));
+        System.out.println(Arrays.toString(solution(new int[] {1, 2, 1, 4, 5, 2, 9})));
+        System.out.println(Arrays.toString(solution(new int[] {1, 2, 1})));
+        System.out.println(Arrays.toString(solution(new int[] {1, 1, 1})));
+        System.out.println(Arrays.toString(solution(new int[] {1, 2, 1, 2, 1, 10, 2, 1})));
 
-        System.out.println(solution2(new int[]{1, 2, 1, 4, 5, 2, 9}));
-        System.out.println(solution2(new int[]{1, 2, 1}));
-        System.out.println(solution2(new int[]{1, 1, 1}));
-        System.out.println(solution2(new int[]{1, 2, 1, 2, 1, 10, 2, 1}));
+        System.out.println(solution2(new int[] {1, 2, 1, 4, 5, 2, 9}));
+        System.out.println(solution2(new int[] {1, 2, 1}));
+        System.out.println(solution2(new int[] {1, 1, 1}));
+        System.out.println(solution2(new int[] {1, 2, 1, 2, 1, 10, 2, 1}));
     }
 
     public static int[] solution(int[] arr) {

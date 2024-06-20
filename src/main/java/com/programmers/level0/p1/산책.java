@@ -10,7 +10,6 @@ public class 산책 {
     public static int[] solution(String route) {
         int east = 0;
         int north = 0;
-        int[] answer = new int[2];
 
         for(int i = 0; i < route.length(); i++) {
             switch(route.charAt(i)) {
@@ -29,8 +28,6 @@ public class 산책 {
             }
         }
 
-        answer[0] = east;
-        answer[1] = north;
-        return answer;
+        return new int[] {east, north};
     }
 }

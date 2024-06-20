@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 
 public class 마지막두원소 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new int[]{2, 1, 6})));
-        System.out.println(Arrays.toString(solution(new int[]{5, 2, 1, 7, 5})));
+        System.out.println(Arrays.toString(solution(new int[] {2, 1, 6})));
+        System.out.println(Arrays.toString(solution(new int[] {5, 2, 1, 7, 5})));
     }
 
     public static int[] solution(int[] num_list) {

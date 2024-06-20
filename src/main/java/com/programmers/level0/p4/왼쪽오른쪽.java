@@ -5,8 +5,8 @@ import java.util.stream.IntStream;
 
 public class 왼쪽오른쪽 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new String[]{"u", "u", "l", "r"})));
-        System.out.println(Arrays.toString(solution(new String[]{"l"})));
+        System.out.println(Arrays.toString(solution(new String[] {"u", "u", "l", "r"})));
+        System.out.println(Arrays.toString(solution(new String[] {"l"})));
     }
 
     public static String[] solution(String[] str_list) {
@@ -29,6 +29,6 @@ public class 왼쪽오른쪽 {
                             }
                             return Arrays.copyOfRange(str_list, i + 1, str_list.length);
                         })
-                        .orElseGet(() -> new String[]{});
+                        .orElseGet(() -> new String[] {});
     }
 }

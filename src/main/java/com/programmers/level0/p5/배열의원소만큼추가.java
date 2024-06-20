@@ -5,9 +5,9 @@ import java.util.stream.Stream;
 
 public class 배열의원소만큼추가 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new int[]{5, 1, 4})));
-        System.out.println(Arrays.toString(solution(new int[]{6,6})));
-        System.out.println(Arrays.toString(solution(new int[]{1})));
+        System.out.println(Arrays.toString(solution(new int[] {5, 1, 4})));
+        System.out.println(Arrays.toString(solution(new int[] {6,6})));
+        System.out.println(Arrays.toString(solution(new int[] {1})));
     }
 
     public static int[] solution(int[] arr) {

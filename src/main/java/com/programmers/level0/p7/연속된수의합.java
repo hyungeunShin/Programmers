@@ -14,7 +14,7 @@ public class 연속된수의합 {
         int[] answer = new int[num];
 
         int temp = 0;
-        for(int i = 0; i < num; i++){
+        for(int i = 0; i < num; i++) {
             temp += i;
         }
 

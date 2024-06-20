@@ -25,6 +25,6 @@ public class 문자열이몇번등장하는지 {
 //        return cnt;
 
         int idx = myString.indexOf(pat);
-        return idx == -1 ? 0 : (1 + solution(myString.substring(idx + 1), pat));
+        return idx == -1 ? 0 : 1 + solution(myString.substring(idx + 1), pat);
     }
 }

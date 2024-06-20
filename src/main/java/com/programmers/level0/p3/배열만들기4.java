@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class 배열만들기4 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new int[]{1, 4, 2, 5, 3})));
+        System.out.println(Arrays.toString(solution(new int[] {1, 4, 2, 5, 3})));
     }
 
     public static int[] solution(int[] arr) {

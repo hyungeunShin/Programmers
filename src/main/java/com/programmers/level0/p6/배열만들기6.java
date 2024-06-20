@@ -5,9 +5,9 @@ import java.util.Stack;
 
 public class 배열만들기6 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new int[]{0, 1, 1, 1, 0})));
-        System.out.println(Arrays.toString(solution(new int[]{0, 1, 0, 1, 0})));
-        System.out.println(Arrays.toString(solution(new int[]{0, 1, 1, 0})));
+        System.out.println(Arrays.toString(solution(new int[] {0, 1, 1, 1, 0})));
+        System.out.println(Arrays.toString(solution(new int[] {0, 1, 0, 1, 0})));
+        System.out.println(Arrays.toString(solution(new int[] {0, 1, 1, 0})));
     }
 
     public static int[] solution(int[] arr) {
@@ -36,6 +36,6 @@ public class 배열만들기6 {
             }
         }
 
-        return stack.isEmpty() ? new int[] { -1 } : stack.stream().mapToInt(i -> i).toArray();
+        return stack.isEmpty() ? new int[] {-1} : stack.stream().mapToInt(i -> i).toArray();
     }
 }

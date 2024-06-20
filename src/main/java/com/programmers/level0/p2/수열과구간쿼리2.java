@@ -22,10 +22,10 @@ public class 수열과구간쿼리2 {
 //        return answer;
 
         return Arrays.stream(queries)
-                .mapToInt(query -> IntStream.rangeClosed(query[0], query[1])
-                                            .map(i -> arr[i])
-                                            .filter(i -> i > query[2])
-                                            .min().orElse(-1))
-                .toArray();
+                     .mapToInt(query -> IntStream.rangeClosed(query[0], query[1])
+                                                 .map(i -> arr[i])
+                                                 .filter(i -> i > query[2])
+                                                 .min().orElse(-1))
+                     .toArray();
     }
 }

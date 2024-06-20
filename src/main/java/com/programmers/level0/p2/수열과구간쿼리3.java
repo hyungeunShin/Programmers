@@ -24,7 +24,6 @@ public class 수열과구간쿼리3 {
 //        return arr;
 
         List<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toList());
-
         for(int[] query : queries) {
             Collections.swap(list, query[0], query[1]);
         }

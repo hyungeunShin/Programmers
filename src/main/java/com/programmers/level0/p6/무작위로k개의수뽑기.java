@@ -5,8 +5,8 @@ import java.util.stream.IntStream;
 
 public class 무작위로k개의수뽑기 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new int[]{0, 1, 1, 2, 2, 3}, 3)));
-        System.out.println(Arrays.toString(solution(new int[]{0, 1, 1, 1, 1}, 4)));
+        System.out.println(Arrays.toString(solution(new int[] {0, 1, 1, 2, 2, 3}, 3)));
+        System.out.println(Arrays.toString(solution(new int[] {0, 1, 1, 1, 1}, 4)));
     }
 
     public static int[] solution(int[] arr, int k) {

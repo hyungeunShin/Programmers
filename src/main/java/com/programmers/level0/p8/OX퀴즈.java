@@ -6,8 +6,8 @@ import java.util.List;
 
 public class OX퀴즈 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new String[]{"3 - 4 = -3", "5 + 6 = 11"})));
-        System.out.println(Arrays.toString(solution(new String[]{"19 - 6 = 13", "5 + 66 = 71", "5 - 15 = 63", "3 - 1 = 2"})));
+        System.out.println(Arrays.toString(solution(new String[] {"3 - 4 = -3", "5 + 6 = 11"})));
+        System.out.println(Arrays.toString(solution(new String[] {"19 - 6 = 13", "5 + 66 = 71", "5 - 15 = 63", "3 - 1 = 2"})));
     }
 
     public static String[] solution(String[] quiz) {

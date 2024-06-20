@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class ad제거 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new String[]{"and", "notad", "abcd"})));
-        System.out.println(Arrays.toString(solution(new String[]{"there","are","no","a","ds"})));
+        System.out.println(Arrays.toString(solution(new String[] {"and", "notad", "abcd"})));
+        System.out.println(Arrays.toString(solution(new String[] {"there","are","no","a","ds"})));
     }
 
     public static String[] solution(String[] strArr) {

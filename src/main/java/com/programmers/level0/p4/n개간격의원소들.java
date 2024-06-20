@@ -5,8 +5,8 @@ import java.util.stream.IntStream;
 
 public class n개간격의원소들 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new int[]{4, 2, 6, 1, 7, 6}, 2)));
-        System.out.println(Arrays.toString(solution(new int[]{4, 2, 6, 1, 7, 6}, 4)));
+        System.out.println(Arrays.toString(solution(new int[] {4, 2, 6, 1, 7, 6}, 2)));
+        System.out.println(Arrays.toString(solution(new int[] {4, 2, 6, 1, 7, 6}, 4)));
     }
 
     public static int[] solution(int[] num_list, int n) {

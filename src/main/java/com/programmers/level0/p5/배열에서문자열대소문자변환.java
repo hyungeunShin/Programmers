@@ -5,8 +5,8 @@ import java.util.stream.IntStream;
 
 public class 배열에서문자열대소문자변환 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new String[]{"AAA", "BBB", "CCC", "DDD"})));
-        System.out.println(Arrays.toString(solution(new String[]{"abc", "AbC"})));
+        System.out.println(Arrays.toString(solution(new String[] {"AAA", "BBB", "CCC", "DDD"})));
+        System.out.println(Arrays.toString(solution(new String[] {"abc", "AbC"})));
     }
 
     public static String[] solution(String[] strArr) {

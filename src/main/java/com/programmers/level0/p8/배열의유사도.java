@@ -6,8 +6,8 @@ import java.util.Set;
 
 public class 배열의유사도 {
     public static void main(String[] args) {
-        System.out.println(solution(new String[]{"a", "b", "c"}, new String[]{"com", "b", "d", "p", "c"}));
-        System.out.println(solution(new String[]{"n", "omg"}, new String[]{"m", "dot"}));
+        System.out.println(solution(new String[] {"a", "b", "c"}, new String[] {"com", "b", "d", "p", "c"}));
+        System.out.println(solution(new String[] {"n", "omg"}, new String[] {"m", "dot"}));
     }
 
     public static int solution(String[] s1, String[] s2) {

@@ -5,13 +5,13 @@ public class 가습기 {
         System.out.println(solution("auto", 23, 45));
     }
 
-    public static int func1(int humidity, int val_set){
+    public static int func1(int humidity, int val_set) {
         if(humidity < val_set)
             return 3;
         return 1;
     }
 
-    public static int func2(int humidity){
+    public static int func2(int humidity) {
         if(humidity >= 50)
             return 0;
         else if(humidity >= 40)
@@ -25,7 +25,7 @@ public class 가습기 {
         else return 5;
     }
 
-    public static int func3(int humidity, int val_set){
+    public static int func3(int humidity, int val_set) {
         if(humidity < val_set)
             return 1;
         return 0;
