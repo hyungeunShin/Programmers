@@ -7,8 +7,8 @@ import java.util.Stack;
 
 public class 같은숫자는싫어 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(solution(new int[]{1, 1, 3, 3, 0, 1, 1})));
-        System.out.println(Arrays.toString(solution(new int[]{4,4,4,3,3})));
+        System.out.println(Arrays.toString(solution(new int[] {1, 1, 3, 3, 0, 1, 1})));
+        System.out.println(Arrays.toString(solution(new int[] {4,4,4,3,3})));
     }
 
     public static int[] solution(int []arr) {
